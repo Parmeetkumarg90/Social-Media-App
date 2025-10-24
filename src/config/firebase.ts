@@ -17,7 +17,7 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
+const analytics = getAnalytics(app);
 const firbaseRealDb = getDatabase(app);
 const firestoreDb = getFirestore(app);
 const auth = getAuth(app);
