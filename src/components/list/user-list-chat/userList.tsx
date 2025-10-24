@@ -82,7 +82,7 @@ const UserList = ({ params }: { params: { id: string } }) => {
 
     const getAllUsers = async () => {
         try {
-            let docRef = lastDocRef ? query(collection(firestoreDb, "users"), startAfter(lastDocRef), limit(10)) : query(collection(firestoreDb, "users"), limit(10));
+            const docRef = lastDocRef ? query(collection(firestoreDb, "users"), startAfter(lastDocRef), limit(10)) : query(collection(firestoreDb, "users"), limit(10));
             const userQuerySnapshot = await getDocs(docRef);
             const userList: userInterface[] = [];
 

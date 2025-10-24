@@ -117,7 +117,7 @@ function LoginForm() {
                     return;
                 }
 
-                let userDetail: authorizedInterface = {
+                const userDetail: authorizedInterface = {
                     email: result.user.email!,
                     token: token,
                     photoURL: result.user.photoURL!,
@@ -248,7 +248,7 @@ function LoginForm() {
                     Login with Google
                 </Button>
                 <span className={`${style.blurText}`}>
-                    Don't have a account? <Link href="/register" className={`${style.blueColor} ${style.underline}`}>Sign up</Link>
+                    {"Don't have a account?"} <Link href="/register" className={`${style.blueColor} ${style.underline}`}>Sign up</Link>
                 </span>
             </Card>
         </form>

@@ -62,7 +62,7 @@ const RightPanel = () => {
 
     const getAllUsers = async () => {
         try {
-            let docRef = lastDocRef ? query(collection(firestoreDb, "users"), startAfter(lastDocRef), limit(5)) : query(collection(firestoreDb, "users"), limit(5));
+            const docRef = lastDocRef ? query(collection(firestoreDb, "users"), startAfter(lastDocRef), limit(5)) : query(collection(firestoreDb, "users"), limit(5));
             const userQuerySnapshot = await getDocs(docRef);
             const userList: userInterface[] = [];
 
