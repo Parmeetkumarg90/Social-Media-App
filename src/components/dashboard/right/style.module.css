@@ -1,0 +1,42 @@
+.card {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 1fr 0fr;
+}
+
+.textYelow {
+    color: yellow !important;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.fontSize1-2 {
+    font-size: 1.2rem !important;
+}
+
+.placeCenter {
+    place-items: center;
+}
+
+.listLinkItem {
+    cursor: pointer;
+}
+
+.listLinkItem:hover {
+    opacity: 0.8;
+}
+.textRed {
+    color: red;
+}
+
+.textGreen {
+    color: greenyellow;
+}

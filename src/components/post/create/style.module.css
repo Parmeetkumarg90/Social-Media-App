@@ -1,0 +1,89 @@
+.card {
+    width: 98%;
+    min-height: 100%;
+    position: relative;
+    border: 1px solid rgb(122, 122, 122) !important;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 0.5fr;
+}
+
+.rounded_logo {
+    border-radius: 100px;
+}
+
+.form {
+    padding: 3%;
+}
+
+.placeInRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10;
+    align-items: center;
+}
+
+.pY5 {
+    padding: 5% 0;
+}
+
+.input {
+    width: 100%;
+}
+
+.flex_evenly {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hidden {
+    display: none;
+}
+
+.redText {
+    color: #d32f2f;
+}
+
+.imageList {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.overflow_scroll {
+    overflow-y: auto;
+}
+
+.button {
+    background: transparent !important;
+}
+
+.mT3 {
+    margin-top: 3% !important;
+}
+
+.linkModal {
+    font-size: 1rem;
+    color: rgb(238, 235, 77);
+}
+
+.linkModal:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.disabledButton {
+    color: black;
+    background-color: grey !important;
+}

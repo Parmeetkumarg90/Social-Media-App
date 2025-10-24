@@ -1,0 +1,83 @@
+.card {
+    width: 100%;
+    position: relative;
+    margin: 1%;
+    /* background-color: #2f32d3 !important; */
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr auto 0.5fr;
+}
+
+.rounded_logo {
+    border-radius: 100px;
+}
+
+.form {
+    padding: 3% 0;
+}
+
+.placeInRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10;
+    align-items: center;
+}
+
+.pY5 {
+    padding: 5% 0;
+}
+
+.pX5 {
+    padding: 0 5%;
+}
+
+.mY2 {
+    margin: 2% 0;
+}
+
+.mX2 {
+    margin: 0 2%;
+}
+
+.input {
+    width: 100%;
+}
+
+.flex_evenly {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hidden {
+    display: none;
+}
+
+.redText {
+    color: #d32f2f;
+}
+
+.imageList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.overflow_scroll {
+    overflow-y: auto;
+}
+
+.popover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 200;
+}

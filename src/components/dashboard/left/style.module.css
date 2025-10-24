@@ -1,0 +1,107 @@
+.card {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.textWrap {
+    text-wrap: wrap;
+}
+
+.rounded_logo {
+    position: relative !important;
+    border-radius: 100px;
+}
+
+.topElement {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.5fr 0.5fr;
+    /* background-color: red !important; */
+}
+
+.section1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.1fr;
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.button {
+    width: 80% !important;
+    padding: 2% 0 !important;
+    border-radius: 5px !important;
+    text-align: center !important;
+    margin: 2% 0;
+}
+
+.w_30 {
+    width: 30%;
+    margin: auto;
+    height: fit-content;
+    padding-top: 3%;
+}
+
+.popover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 200;
+}
+
+.placeInRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10;
+    align-items: center;
+}
+
+.placeInColumn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10;
+    align-items: center;
+}
+
+.linkModal {
+    font-size: large;
+    color: rgb(255, 240, 154);
+}
+
+.linkModal:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mY2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.alert {
+    margin: 2% 0;
+    width: 80%;
+    background-color: rgb(41, 109, 41) !important;
+}

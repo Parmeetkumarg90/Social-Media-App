@@ -1,0 +1,43 @@
+.grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    place-items: center;
+    place-content: center;
+}
+
+.input {
+    width: 100%;
+    margin: 5% !important;
+}
+
+.pY5 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.button {
+    width: 100%;
+}
+
+.no_spinners input::-webkit-outer-spin-button,
+.no_spinners input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.redText {
+    color: red;
+}
+
+.pX5 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.mX5 {
+    margin-left: 5%;
+    margin-right: 5%;
+}

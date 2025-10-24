@@ -1,0 +1,26 @@
+.relative {
+    position: relative;
+}
+
+.grid {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+    max-height: 90vh !important;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+.card {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+    max-height: 90vh !important;
+    position: relative;
+}
+
+.main_grid {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+}

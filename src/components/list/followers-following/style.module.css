@@ -1,0 +1,53 @@
+.card {
+    width: 100%;
+    min-width: 20vw;
+    min-height: 100%;
+    position: relative;
+    padding: 3% 2%;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.rounded_logo {
+    position: relative !important;
+    border-radius: 100px;
+}
+
+.textCenter {
+    text-align: center !important;
+}
+
+.button {
+    width: 80% !important;
+    padding: 2% 0 !important;
+    border-radius: 5px;
+}
+
+.w_100 {
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+}
+
+.placeInRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10;
+    align-items: center;
+}
+
+.mY2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.textYelow{
+    color: yellow !important;
+}

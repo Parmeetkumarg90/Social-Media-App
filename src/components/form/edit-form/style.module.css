@@ -1,0 +1,47 @@
+.grid {
+    width: 40vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 0.5fr);
+    place-items: center;
+    margin: 3% 0;
+}
+
+.input {
+    width: 100%;
+    margin: 2% !important;
+}
+
+.select{
+    width: 70%;
+    min-width: fit-content;
+    margin: 2% !important;
+}
+
+.pY5 {
+    padding: 5% 0;
+}
+
+.button {
+    width: fit-content;
+}
+
+.no_spinners input::-webkit-outer-spin-button,
+.no_spinners input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.no_spinners input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.redText {
+    color: red;
+}
+
+.disabledButton{
+    color: black;
+    background-color: grey !important;
+}

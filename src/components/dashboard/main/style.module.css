@@ -1,0 +1,26 @@
+.card {
+    width: 98%;
+    min-height: 100%;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.overflow_scroll {
+    height: 10px;
+    overflow-y: scroll;
+}
+
+.marginAuto{
+    margin: auto;
+}
+
+.mT3{
+    margin-top: 3% !important;
+}

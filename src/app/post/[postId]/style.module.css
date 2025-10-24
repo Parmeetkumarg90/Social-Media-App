@@ -1,0 +1,19 @@
+.card {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+}
+
+.main_grid{
+    display: grid;
+    grid-template-rows: 0.1fr 100fr;
+}

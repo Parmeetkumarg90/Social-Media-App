@@ -1,0 +1,27 @@
+.list {
+    min-width: 100% !important;
+    min-height: 100% !important;
+    padding: 2% 1% !important;
+}
+
+.iconButton {
+    position: relative;
+    margin: 0 2% !important;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.listItem {
+    min-width: 50vw !important;
+}
+
+.dialog{
+    min-height: 50vw !important;
+}
+
+.yellowText{
+    color: yellow !important;
+}

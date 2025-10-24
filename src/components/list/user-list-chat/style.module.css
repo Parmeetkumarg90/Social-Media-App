@@ -1,0 +1,54 @@
+.card {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    /* margin-top: 3% !important; */
+    padding-top: 3% !important;
+    border: 1px solid #a8a7a7 !important;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 1fr 0fr;
+}
+
+.textYelow {
+    color: yellow !important;
+    border-bottom: 1px solid #a8a7a7 !important;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.fontSize1-2 {
+    font-size: 1.2rem !important;
+}
+
+.placeCenter {
+    place-items: center;
+}
+
+.listLinkItem {
+    cursor: pointer;
+    transition: all 600ms;
+}
+
+.listLinkItem:hover {
+    background-color: #a8a7a7;
+    opacity: 0.6;
+}
+
+.active-chat {
+    background-color: #a8a7a7;
+    opacity: 0.9;
+}
+
+.textRed {
+    color: red;
+}
+
+.textGreen {
+    color: greenyellow;
+}
