@@ -10,7 +10,7 @@ import { enqueueSnackbar } from "notistack";
 import { CircularProgress } from "@mui/material";
 import Navbar from "@/components/dashboard/nav-bar/navbar";
 
-const Dashboard = ({ children, params }: Readonly<{ children: React.ReactNode, params: { uid: string } }>) => {
+const Dashboard = ({ children, params }: Readonly<{ children: React.ReactNode, params: Promise<{ uid: string }> }>) => {
     const [isLoading, setLoading] = useState<boolean>(true);
     const [userUid, setUserUid] = useState<string>("");
 

@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import { enqueueSnackbar } from 'notistack';
 import { useEffect, useState } from 'react';
 
-const Dashboard = ({ params }: { params: { postId: string } }) => {
+const Dashboard = ({ params }: { params: Promise<{ postId: string }> }) => {
     const [isLoading, setLoading] = useState<boolean>(true);
     const [postId, setPostId] = useState<string>("");
 

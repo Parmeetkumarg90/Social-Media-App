@@ -15,7 +15,7 @@ import { useRouter } from "next/navigation";
 import { enqueueSnackbar } from "notistack";
 import { chatInputInterface, chatStatusInterface } from "@/interfaces/chat/chat";
 
-const SpecificChat = ({ params }: { params: { id: string } }) => {
+const SpecificChat = ({ params }: { params: Promise<{ id: string }> }) => {
   const router = useRouter();
   const loggedInUser = useAppSelector((state: RootState) => state.currentUser);
   const [isLoading, setLoading] = useState<boolean>(true);
